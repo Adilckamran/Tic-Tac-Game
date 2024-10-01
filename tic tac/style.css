@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: burlywood;
+    margin: 0;
+}
+table{
+    width: 80vw;
+    max-width: 500px;
+    height: 80vh;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+td{
+    width: 33.33%;
+    height: 33.33%;
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
+    border: 2px solid ghostwhite;
+    background-color: lightcoral;
+}
+td:hover{
+    background-color: bisque;
+    scale: 0.94;
+}
